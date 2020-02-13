@@ -29,10 +29,9 @@ def self.create_by_name(title)
 end 
 
 def self.find_by_name(title)
-   def self.new_by_name(title) #class constructor
-    song = self.new
-    song.name = title
-    song
+   def self.new_by_name(title) 
+   result = self.all.detect {|song| song.name == title}
+    result
   end
 end 
 
