@@ -18,4 +18,5 @@ end
 
 def self.new_by_name(title)
   song = self.new 
+  song
 end 
