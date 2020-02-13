@@ -10,5 +10,5 @@ class Song
     self.class.all << self
   end
 
-Song.find_or_create_by_name("Blank Space")
+
 end
