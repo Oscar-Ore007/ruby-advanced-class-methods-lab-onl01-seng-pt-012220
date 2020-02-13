@@ -22,7 +22,7 @@ end
     song
   end
   
-  
+def self.create_by_name(title)
   
   
 end 
