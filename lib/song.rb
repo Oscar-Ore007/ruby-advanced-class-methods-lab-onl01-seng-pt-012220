@@ -15,3 +15,4 @@ def self.create
   self.all << self 
   song 
 end
+end 
