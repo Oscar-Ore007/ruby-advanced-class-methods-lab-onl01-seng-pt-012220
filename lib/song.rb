@@ -47,7 +47,7 @@ def self.alphabetical
     sorted
   end
 
-end 
+
 
 
 
