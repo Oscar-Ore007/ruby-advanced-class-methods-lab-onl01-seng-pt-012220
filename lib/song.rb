@@ -29,7 +29,7 @@ def self.create_by_name(title)
 end 
 
 def self.find_by_name(title)
-  song = 
+  result 
 end 
 
 end 
